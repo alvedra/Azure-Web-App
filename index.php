@@ -149,7 +149,7 @@ if(isset($_POST["submit"])){
  <body>
      <h1>Analisa Gambar dan Blob Storage</h1>
      <p>Pilih Gambar yang akan dianalisa.</p>
-     <form method="post" action="phpQS.php?upload" enctype="multipart/form-data">
+     <form method="post" action="index.php?upload" enctype="multipart/form-data">
         <p><input type="file" name="fileToUpload" id="fileToUpload"></p>
         <p><button type="submit" name="submit">Upload</button></p>
      </form>
